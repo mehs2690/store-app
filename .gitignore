@@ -1,0 +1,65 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.log
+
+# Virtual environment
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# VS Code settings
+.vscode/
+
+# MacOS system files
+.DS_Store
+
+# dotenv (nunca subas .env con credenciales)
+.env
+
+# Docker stuff
+*.pid
+*.sock
+docker-compose.override.yml
+
+# Database & mongo artifacts (if any local dumps)
+*.sqlite3
+*.db
+*.sql
+dump.rdb
+
+# Pytest and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+.cache
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+MANIFEST
+
+# Logs
+*.log
+
+# Jupyter / IPython stuff (por si se usa en pruebas)
+.ipynb_checkpoints
+
+# Node stuff (si metes documentación con MermaidJS u otra herramienta web)
+node_modules/
+
+# Compiled Cython files
+*.c
+*.so
